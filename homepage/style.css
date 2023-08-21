@@ -1,0 +1,373 @@
+/* full_navbar_home */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar_home {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+
+}
+
+
+#bottom_navbar_home {
+    width: 100vw;
+    height: 4vh;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Solid_grey.svg/2048px-Solid_grey.svg.png);
+    background-image: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0));
+    margin-top: 0%;
+
+}
+
+.full_navbar_home {
+    position: sticky;
+    top: 0%;
+    z-index: +2;
+    width: 15%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+#navbar_logo {
+    height: 100%;
+    width: 15%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.navbar_button {
+    color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 1rem;
+    border-radius: 0.5em;
+    border: white;
+    background: #ffffff;
+    font-size: x-large;
+    display: flex;
+    align-content: space-evenly;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration-line: none;
+}
+
+.navbar_button:hover {
+    border: 4px rgb(197, 168, 0) solid;
+    box-shadow: 2px #000000;
+    color: rgb(197, 168, 0);
+    transition-duration: 0.3s;
+}
+
+.navbar_button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+        -4px -4px 12px #ffffff;
+}
+
+.genders_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.genders_container img {
+    border-radius: 1vw;
+}
+
+.gender {
+    display: inline-block;
+    height: 20vw;
+    width: 30vw;
+    margin: 5vw;
+    border: 1px #000000 solid;
+    border-radius: 1vw;
+}
+
+.gender :hover {
+    border: 5px rgb(77, 77, 77) solid;
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    filter: brightness(130%)
+}
+
+.gender img {
+    height: 100%;
+    width: 100%;
+}
+
+#invitation {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#hr1 {
+    margin-right: 30vw;
+    margin-left: 30vw;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.head_name {
+    margin-bottom: 4px;
+    height: 3vh;
+}
+
+@media only screen and (max-width: 400px) {
+    #invitation {
+        width: 370px;
+        height: 200px;
+        font-size: 2rem;
+    }
+
+    .navbar_button {
+        font-size:x-small;
+        padding: 0%;
+    }
+    .content_bottom{
+        display: flex;
+        flex-direction: column;
+        font-size: smaller;
+        width: 390px;
+        height: auto;
+    margin-left: 20%;
+    }
+#uheader_bottom{
+margin-left: 10vw;
+}
+    #vid {
+        width: 100%;
+    }
+    * {
+        margin-right: 20%;
+    }
+
+    .full_navbar_home{
+        width: 390px;
+    }
+}
+
+.ad {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.description {
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 4vw;
+    margin-top: 4vw;
+}
+
+.full_prodact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 4vh;
+    justify-content: center;
+}
+a href{
+    color: #000000;
+}
+#clickmore {
+    color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 1rem;
+    border-radius: 0.5em;
+    border: white;
+    background: #ffffff;
+    transition-duration: 0.3s;
+    font-size: large;
+    display: flex;
+    align-content: space-evenly;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration-line: none;
+}
+
+.prodact {
+    height: 20vw;
+    width: 20vw;
+}
+
+.prodact_text {
+    color: rgb(99, 98, 98);
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.full_prodact:hover {
+    border: 1px black solid;
+}
+
+.full_prodact:hover .prodact_text {
+    color: black;
+    font-size: larger;
+    transition: all 0.3s;
+
+}
+
+.advertisment {
+    margin-bottom: 20vw;
+}
+
+#clickmore:hover {
+    border-color: #00000000;
+ color: black;
+    font-size: larger;
+    transition: all 0.3s;
+}
+
+.content_bottom {
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: column;
+    color: beige;
+    align-items: center;
+    margin-top: 20vh;
+    padding-bottom: 20vh;
+    border-radius: 3%;
+}
+
+#bottom_header {
+    font-size: 3rem;
+    margin-top: 1%;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#uheader_bottom {
+    font-size: 2rem;
+    margin-bottom: 4%;
+
+    font-family: 'Pacifico', cursive;
+}
+
+.story {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#vid {
+    height: 50vh;
+    margin-top: 10vh;
+    border: 2px white solid;
+}
+
+#white_img {
+    background-image: url(https://img.freepik.com/premium-photo/top-view-abstract-paper-texture-background_225709-2718.jpg?w=2000);
+    height: 2vh;
+    width: 70vw;
+   
+    
+}
+#contact{
+    font-size:x-large;
+    font-family: 'Pacifico', cursive;
+    margin-top: 25vh;
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+margin-bottom: 0%;  
+}
+
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
